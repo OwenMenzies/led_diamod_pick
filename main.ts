@@ -1,10 +1,10 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 5; index++) {
+    for (let index = 0; index < 1; index++) {
         if (randint(0, 100) == randint(0, 100)) {
             if (randint(0, 5) > randint(0, 5)) {
                 Gambling_machine += 3
             }
-        } else if (randint(0, 96) > randint(0, 100)) {
+        } else if (randint(0, 97) > randint(0, 100)) {
             Gambling_machine += 1
         } else {
             Gambling_machine += -1
